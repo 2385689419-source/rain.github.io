@@ -1,9 +1,9 @@
-baseURL = 'https://example.org/'
-languageCode = 'en'
-title = 'My New Hugo Site'
+baseURL = 'https://rain-github-io.vercel.app/'
+languageCode = 'zh-CN'
+title = 'Rains' Blog'
 theme = 'hugo-theme-reimu'
 
-defaultContentLanguage = 'en'
+defaultContentLanguage = 'zh-CN'
 [languages]
 [languages.en]
 languageName = 'English'
