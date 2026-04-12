@@ -60,7 +60,19 @@ main() {
   fi
 
   echo "Building the site..."
-  hugo build --gc --minify --baseURL "https://${VERCEL_PROJECT_PRODUCTION_URL}"
+set +e
+hugo build --gc --minify 2>&1 | tee hugo-build.log
+build_exit=${PIPESTATUS[0]}
+echo "Hugo exit code: ${build_exit}"
+
+echo "Listing public directory..."
+ls -la
+ls -la public || true
+
+echo "Last 50 lines of hugo-build.log:"
+tail -n 50 hugo-build.log || true
+
+exit ${build_exit}
 }
 
 main "$@"
