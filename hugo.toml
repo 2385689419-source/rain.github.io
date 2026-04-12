@@ -1,6 +1,6 @@
 baseURL = 'https://rain-github-io.vercel.app/'
 languageCode = 'zh-CN'
-title = 'Rains' Blog'
+title = "Rains' Blog"
 theme = 'hugo-theme-reimu'
 
 defaultContentLanguage = 'zh-CN'
