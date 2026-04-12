@@ -506,6 +506,6 @@ $$ -->
 
 ## 卡片
 
-{{<postLinkCard path="/post/chinese" cover="https://space.bilibili.com/3546626947812017?spm_id_from=333.1007.0.0" >}}
+{{<postLinkCard path="/post/chinese"  >}}
 
 {{<externalLinkCard title="Github" link="https://github.com/D-Sketon/hugo-theme-reimu" cover="https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png">}}
