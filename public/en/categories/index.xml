@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Rains&#39; Blog</title>
-    <link>https://rain-github-io.vercel.app/zh-tw/categories/</link>
+    <link>https://rain-github-io.vercel.app/en/categories/</link>
     <description>Recent content from Rains&#39; Blog</description>
     <generator>Hugo</generator>
-    <language>zh-tw</language>
+    <language>en</language>
     
     <managingEditor>xxx@example.com (D-Sketon)</managingEditor>
     <webMaster>xxx@example.com (D-Sketon)</webMaster>
     
-    <copyright>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</copyright>
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
     
-    <atom:link href="https://rain-github-io.vercel.app/zh-tw/categories/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://rain-github-io.vercel.app/en/categories/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     

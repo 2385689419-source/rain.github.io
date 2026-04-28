@@ -1,4 +1,4 @@
-{{- $limit := 1000 -}}
+{{- $limit := 300 -}}
 [
   {{- range $index, $entry := where .Page.Site.RegularPages "Section" "in" .Site.Params.mainSections -}}
   {{ if $index }}, {{ end }}
@@ -6,11 +6,13 @@
     "objectID": "{{ sha1 .RelPermalink }}",
     "permalink": "{{ .Permalink | relURL }}",
     "title": {{ .Title | jsonify }},
-    {{- if gt .WordCount $limit -}}
-    "content": {{ .Plain | truncate $limit | jsonify | safeJS }},
+    "content": {{- if .Params.description -}}
+      {{ .Params.description | plainify | truncate $limit | jsonify | safeJS }}
+    {{- else if .Summary -}}
+      {{ .Summary | plainify | truncate $limit | jsonify | safeJS }}
     {{- else -}}
-    "content": {{ .Plain | jsonify | safeJS }},
-    {{- end -}}
+      {{ .Plain | truncate $limit | jsonify | safeJS }}
+    {{- end }},
     "date": {{ .Date.Format $.Site.Params.timeFormat | jsonify }},
     "updated": {{ .Lastmod.Format $.Site.Params.timeFormat | jsonify }}
   }

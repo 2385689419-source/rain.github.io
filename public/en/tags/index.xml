@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rains&#39; Blog</title>
-    <link>https://rain-github-io.vercel.app/ja/tags/</link>
+    <link>https://rain-github-io.vercel.app/en/tags/</link>
     <description>Recent content from Rains&#39; Blog</description>
     <generator>Hugo</generator>
-    <language>ja</language>
+    <language>en</language>
     
     <managingEditor>xxx@example.com (D-Sketon)</managingEditor>
     <webMaster>xxx@example.com (D-Sketon)</webMaster>
     
-    <copyright>本ブログのすべての文書は、特に指定されていない限り、BY-NC-SAライセンスに従っています。引用の際は出典を明記してください！</copyright>
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
     
-    <atom:link href="https://rain-github-io.vercel.app/ja/tags/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://rain-github-io.vercel.app/en/tags/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
